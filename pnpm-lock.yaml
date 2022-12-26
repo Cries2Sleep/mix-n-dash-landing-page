@@ -5,6 +5,7 @@ specifiers:
   '@testing-library/react': ^13.4.0
   '@testing-library/user-event': ^14.4.3
   bootstrap: ^5.2.3
+  mdb-react-ui-kit: ^5.1.0
   react: ^18.2.0
   react-bootstrap: ^2.7.0
   react-dom: ^18.2.0
@@ -17,6 +18,7 @@ dependencies:
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/user-event': 14.4.3
   bootstrap: 5.2.3
+  mdb-react-ui-kit: 5.1.0_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-bootstrap: 2.7.0_biqbaboplfbrettd7655fr4n2y
   react-dom: 18.2.0_react@18.2.0
@@ -1999,6 +2001,10 @@ packages:
       webpack-dev-server: 4.11.1_webpack@5.75.0
     dev: false
 
+  /@popperjs/core/2.11.5:
+    resolution: {integrity: sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==}
+    dev: false
+
   /@popperjs/core/2.11.6:
     resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
     dev: false
@@ -3578,6 +3584,11 @@ packages:
       string-width: 4.2.3
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
+    dev: false
+
+  /clsx/1.1.1:
+    resolution: {integrity: sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==}
+    engines: {node: '>=6'}
     dev: false
 
   /co/4.6.0:
@@ -6808,6 +6819,21 @@ packages:
       tmpl: 1.0.5
     dev: false
 
+  /mdb-react-ui-kit/5.1.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-vh7RN5NlVyIdAxbWWb8/yA/NGz7o0MpAX4XE7RZZeOGobEV6nogO5Y65YnBWqnKAXi5e/3UBLGZmOG+xUNjfBg==}
+    peerDependencies:
+      '@types/react': ^18.0.9
+      '@types/react-dom': ^18.0.3
+      react: ^18.1.0
+      react-dom: ^18.1.0
+    dependencies:
+      '@popperjs/core': 2.11.5
+      clsx: 1.1.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-popper: 2.3.0_ili5ylfne7i3hkfpsanzgkfu6m
+    dev: false
+
   /mdn-data/2.0.14:
     resolution: {integrity: sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==}
     dev: false
@@ -8347,6 +8373,10 @@ packages:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
     dev: false
 
+  /react-fast-compare/3.2.0:
+    resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
+    dev: false
+
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
@@ -8361,6 +8391,20 @@ packages:
 
   /react-lifecycles-compat/3.0.4:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
+    dev: false
+
+  /react-popper/2.3.0_ili5ylfne7i3hkfpsanzgkfu6m:
+    resolution: {integrity: sha512-e1hj8lL3uM+sgSR4Lxzn5h1GxBlpa4CQz0XLF8kx4MDrDRWY0Ena4c97PUeSX9i5W3UAfDP0z0FXCTQkoXUl3Q==}
+    peerDependencies:
+      '@popperjs/core': ^2.0.0
+      react: ^16.8.0 || ^17 || ^18
+      react-dom: ^16.8.0 || ^17 || ^18
+    dependencies:
+      '@popperjs/core': 2.11.5
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-fast-compare: 3.2.0
+      warning: 4.0.3
     dev: false
 
   /react-refresh/0.11.0:

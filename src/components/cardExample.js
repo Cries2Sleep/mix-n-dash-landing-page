@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
 import mable from "../assets/img/testimonials-1.jpg";
 import arch from "../assets/img/testimonials-2.jpg";
@@ -32,23 +32,24 @@ export default function ExampleCards () {
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Body>
               <Card.Title>
-               Gucci
+               Katie 
               </Card.Title>
               <Card.Text>
                Dallas, TX
               </Card.Text>
             </Card.Body>
-            <Button
+            <Link
+              className="btn btn-primary btn-md"
               style={{
                 width: "100%",
                 display: "flex",
                 justifyContent: "center",
               }}
-
+              to="/bartenders/katie"
               variant="primary"
             >
               View Profile
-            </Button>
+            </Link>
             <br />
           </Card>
           
@@ -73,32 +74,31 @@ export default function ExampleCards () {
                 display: "block",
               }}
             />
-            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Body>
               <Card.Title>
-               Gucci
+               Sam
               </Card.Title>
               <Card.Text>
                Bryan, TX
               </Card.Text>
             </Card.Body>
-            <Button
+            <Link
+              className="btn btn-primary btn-md"
               style={{
                 width: "100%",
                 display: "flex",
                 justifyContent: "center",
               }}
-              
+              to="/bartenders/sam"
               variant="primary"
             >
               View Profile
-            </Button>
+            </Link>
             <br />
           </Card>
           
           <Card
             className="col-md-3 shadow"
-            // key={bartender.id}
             style={{
               margin: "10px",
               display: "flex",
@@ -117,26 +117,26 @@ export default function ExampleCards () {
                 display: "block",
               }}
             />
-            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Body>
               <Card.Title>
-               Gucci
+               Jasmine
               </Card.Title>
               <Card.Text>
                Bryan, TX
               </Card.Text>
             </Card.Body>
-            <Button
+            <Link
+              className="btn btn-primary btn-md"
               style={{
                 width: "100%",
                 display: "flex",
                 justifyContent: "center",
               }}
-
+              to="/bartenders/jasmine"
               variant="primary"
             >
               View Profile
-            </Button>
+            </Link>
             <br />
           </Card>
         </>

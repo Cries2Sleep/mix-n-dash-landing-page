@@ -4,6 +4,10 @@ import Main from "./components/MainPage";
 import BartenderList from "./components/bartenderList";
 import Nav from "./Nav";
 
+import Katie from "./components/bartenderAccounts/katie"
+import Sam from "./components/bartenderAccounts/sam"
+import Jasmine from "./components/bartenderAccounts/jasmine"
+
 
 
 function App() {
@@ -12,7 +16,12 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="bartenders" element={<BartenderList />} />
+        <Route path="bartenders">
+          <Route path="" element={<BartenderList />} />
+          <Route path="katie" element={<Katie />} />
+          <Route path="sam" element={<Sam />} />
+          <Route path="jasmine" element={<Jasmine />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
