@@ -11784,12 +11784,11 @@ footer.footer {
 .bartenderList {
   position: relative;
   /* background-color: #343a40; */
-  /* background-image: url("../assets/img/bartender2.jpg"); */
+  background-image: url("../assets/img/bartender2.jpg");
   /* no-repeat center center; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: "auto";
   width: "auto";
   /* overflow: hidden;
   object-fit: cover;
@@ -11801,7 +11800,7 @@ footer.footer {
   content: "";
   position: absolute;
   /* background-color: #1c375e; */
-  height: auto;
+  /* height: auto; */
   width: auto;
   top: 0;
   left: 0;

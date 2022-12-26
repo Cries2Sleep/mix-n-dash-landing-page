@@ -2,13 +2,13 @@
 // ICONS
 // import SearchIcon from '@mui/icons-material/Search';
 // IMAGES
-import m from "./assets/img/testimonials-1.jpg";
-import a from "./assets/img/testimonials-2.jpg";
-import b from "./assets/img/testimonials-3.jpg";
-import COCK from "./assets/img/cocktail1.jpg";
+import m from "../assets/img/testimonials-1.jpg";
+import a from "../assets/img/testimonials-2.jpg";
+import b from "../assets/img/testimonials-3.jpg";
+import COCK from "../assets/img/cocktail1.jpg";
 // import ABOUT1 from "./assets/img/bartender2.jpg";
-import ABOUT2 from "./assets/img/RandomCocktailImage.jpg";
-import ABOUT3 from "./assets/img/ladieshangingout.jpg";
+import ABOUT2 from "../assets/img/RandomCocktailImage.jpg";
+import ABOUT3 from "../assets/img/ladieshangingout.jpg";
 
 // idk if this came with the template
 import React from "react";
@@ -61,8 +61,7 @@ function MainPage() {
                       id="submitButton"
                       type="submit"
                       style={{ width: "300px" }}
-                      to="https://google.com"
-                      disable
+                      to="/bartenders"
                     >
                       Start your Search
                     </Link>
