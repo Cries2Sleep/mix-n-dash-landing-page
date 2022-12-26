@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import mable from "../assets/img/testimonials-1.jpg";
 import arch from "../assets/img/testimonials-2.jpg";
-import beyonce from "../assets/img/testimonials-3.jpg";
+import jasmine from "../assets/img/testimonials-3.jpg";
 
 export default function ExampleCards () {
     return (
@@ -108,7 +108,7 @@ export default function ExampleCards () {
           >
             <Card.Img
               variant="top"
-              src={beyonce}
+              src={jasmine}
               alt="avatar"
               className="rounded-circle text-center"
               style={{
@@ -122,7 +122,7 @@ export default function ExampleCards () {
                Jasmine
               </Card.Title>
               <Card.Text>
-               Bryan, TX
+               Houston, TX
               </Card.Text>
             </Card.Body>
             <Link

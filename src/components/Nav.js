@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Button from "react-bootstrap/Button";
-import Logo from "./assets/img/mixndashlogo.png";
+import Logo from "../assets/img/mixndashlogo.png";
 import { useNavigate } from "react-router-dom";
 
 

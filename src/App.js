@@ -2,11 +2,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./css/index.css";
 import Main from "./components/MainPage";
 import BartenderList from "./components/bartenderList";
-import Nav from "./Nav";
+import Nav from "./components/Nav";
 
 import Katie from "./components/bartenderAccounts/katie"
 import Sam from "./components/bartenderAccounts/sam"
-import Jasmine from "./components/bartenderAccounts/jasmine"
+import Jasmine from "./components/bartenderAccounts/jasmine/jasmine"
 
 
 
