@@ -1,5 +1,7 @@
 # Mix'n Dash
 
+## About
+
 Introducing Mix'n Dash, the ultimate platform for connecting event hosts with talented and 
 experienced bartenders. Whether you're hosting a wedding, corporate event, or intimate gathering, Mix'n Dash has the perfect bartender for your needs.
 
@@ -7,8 +9,6 @@ Our platform allows you to browse through a diverse pool of bartenders, each wit
 specialties. So if you're looking to add that extra touch of professionalism and expertise to your next 
 event, look no further than Mix'n Dash. With our platform, finding the perfect bartender has never been 
 easier.
-
-Live Demo: https://mix-n-dash-landing-page-cristovalramirez33.vercel.app/
 
 ## Features
 
@@ -38,9 +38,18 @@ project.
 
 ## Set up
 
+Live version: https://mix-n-dash-landing-page-cristovalramirez33.vercel.app/
+
 1. Clone: https://github.com/Cries2Sleep/mix-n-dash-landing-page
 2. run the command:
     - npm install
     - npm start
 3. Open up web browser and go to: http://localhost:3000/
    Success!
+
+## Dependencies
+ - Bootstrap
+ - React
+ - React Bootstrap
+ - React Router Dom
+ - MDB React UI Kit
