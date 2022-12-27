@@ -1,5 +1,5 @@
-import CarouselKatie from "./carouselKatie";
-import katie from "../../../assets/img/testimonials-1.jpg";
+import CarouselSam from "./carouselSam";
+import sam from "../../../assets/img/testimonials-2.jpg";
 import BackButton from "../BackButton";
 import {
     MDBCol,
@@ -10,7 +10,7 @@ import {
     MDBCardImage,
   } from "mdb-react-ui-kit";
 
-export default function Katie() {
+export default function Sam() {
     return(
         <>
         <section>
@@ -21,18 +21,18 @@ export default function Katie() {
                 <MDBCard className="mb-4">
                   <MDBCardBody className="text-center">
                     <MDBCardImage
-                      src={katie}
+                      src={sam}
                       alt="avatar"
                       className="rounded-circle"
                       style={{ width: "150px" }}
                       fluid
                     />
                     <h2 className="mb-1" style={{ color: "black" }}>
-                      Katie Rodriguez
+                      Sam Rodriguez
                     </h2>
-                    <p> Dallas, TX</p>
-                    <p> Katie is a bubbly and energetic bartender who loves to create new and unique drinks for her customers. She has a particular talent for infusing different flavors into her cocktails. </p>
-                    <p>Contact me at: katie.rodriguez@gmail.com </p>
+                    <p> Bryan, TX</p>
+                    <p> Sam is a laid-back bartender who's been in the industry for over 10 years. He's known for his easygoing personality and his ability to make any cocktail with ease.. </p>
+                    <p>Contact me at: Sam.rodriguez@gmail.com </p>
                   </MDBCardBody>
                 </MDBCard>
               </MDBCol>
@@ -52,13 +52,13 @@ export default function Katie() {
                           </thead>
                           <tbody>
                                 <tr >
-                                  <td>Egg Cream</td>
+                                  <td>John Collins</td>
                                 </tr>
                                 <tr >
-                                  <td>Mango Majito</td>
+                                  <td>Smashed Watermelon Margarita</td>
                                 </tr>
                                 <tr >
-                                  <td>Cherry Electric Lemonade</td>
+                                  <td>Absolutely Cranberry Smash</td>
                                 </tr>
                                 <tr >
                                   <td>Cosmopolitan Martini</td>
@@ -70,7 +70,7 @@ export default function Katie() {
                   </MDBCol>
   
                   <MDBCol md="6">
-                    <CarouselKatie />
+                    <CarouselSam />
                   </MDBCol>
                 </MDBRow>
               </MDBCol>

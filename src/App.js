@@ -5,7 +5,7 @@ import BartenderList from "./components/bartenderList";
 import Nav from "./components/Nav";
 
 import Katie from "./components/bartenderAccounts/katie/katie"
-import Sam from "./components/bartenderAccounts/sam"
+import Sam from "./components/bartenderAccounts/sam/sam"
 import Jasmine from "./components/bartenderAccounts/jasmine/jasmine"
 
 

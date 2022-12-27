@@ -1,6 +1,6 @@
 import CarouselJasmine from "./carouselJasmine";
 import jasmine from "../../../assets/img/testimonials-3.jpg";
-
+import BackButton from "../BackButton";
 // Card styles
 import {
   MDBCol,
@@ -15,6 +15,7 @@ function Jasmine() {
   return (
     <>
       <section>
+      <BackButton/>
         <MDBContainer className="py-5">
           <MDBRow>
             <MDBCol lg="4" style={{ marginTop: "45px" }}>
