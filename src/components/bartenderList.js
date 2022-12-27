@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import ExampleCards from './cardExample';
 
 function BartenderList() {
@@ -26,12 +25,6 @@ function BartenderList() {
                 >
                   <div className="row">
                     <div className="col">
-                      {/* <input
-                        icon="search"
-                        placeholder="City"
-                        type="text"
-                        className="form-control form-control-md"
-                      ></input> */}
                     </div>
                   </div>
                 </form>

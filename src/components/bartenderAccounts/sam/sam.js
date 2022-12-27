@@ -28,7 +28,7 @@ export default function Sam() {
                       fluid
                     />
                     <h2 className="mb-1" style={{ color: "black" }}>
-                      Sam Rodriguez
+                      Sam Smith
                     </h2>
                     <p> Bryan, TX</p>
                     <p> Sam is a laid-back bartender who's been in the industry for over 10 years. He's known for his easygoing personality and his ability to make any cocktail with ease.. </p>
