@@ -16,8 +16,6 @@ function Jasmine() {
     <>
       <section>
         <MDBContainer className="py-5">
-          {/* <MDBRow></MDBRow> */}
-
           <MDBRow>
             <MDBCol lg="4" style={{ marginTop: "45px" }}>
               <MDBCard className="mb-4">
@@ -46,10 +44,6 @@ function Jasmine() {
                     style={{ marginTop: "45px" }}
                   >
                     <MDBCardBody>
-                      {/* <MDBCardText className="mb-4"> */}
-                      {/* <span className="text-primary text-center font-italic me-1">
-                          Reviews
-                        </span>{" "} */}
                       <table className="table table-striped text-center">
                         <thead>
                           <tr>
@@ -71,18 +65,12 @@ function Jasmine() {
                               </tr>
                         </tbody>
                       </table>
-                      {/* </MDBCardText> */}
                     </MDBCardBody>
                   </MDBCard>
                 </MDBCol>
 
                 <MDBCol md="6">
-                  {/* <MDBCard
-                    // className="mb-4 mb-md-0"
-                    style={{ backgroundColor: "rgba(0,0,0,0)" }}
-                  > */}
                   <CarouselJasmine />
-                  {/* </MDBCard> */}
                 </MDBCol>
               </MDBRow>
             </MDBCol>
